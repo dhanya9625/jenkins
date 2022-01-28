@@ -12,6 +12,7 @@ spec:
       labels:
         app: jhooq-springboot
     spec:
+      serviceAccountName: jenkins
       containers:
         - name: springboot
           image: dhanya2508/jhooq-docker-demo:jhooq-docker-demo
